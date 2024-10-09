@@ -1,75 +1,47 @@
-# Nuxt 3 Minimal Starter
+# CRM система с нуля на VUE / NUXT
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Добро пожаловать в проект по созданию CRM системы с нуля! В этом проекте мы будем использовать современные инструменты и технологии для создания динамичного и мощного пользовательского интерфейса. 
 
-## Setup
+## Технологии, которые мы будем использовать:
 
-Make sure to install the dependencies:
+- **Vue 3 и Nuxt 3**: для создания динамичного и производительного фронтенда.
+- **Vue Query**: для эффективного взаимодействия с сервером и управления запросами к API.
+- **VeeValidate**: для валидации форм и обеспечения высокого уровня пользовательского опыта.
+- **Pinia**: для управления состоянием приложения.
+- **Shadcn**: для работы с дизайном и стилизацией интерфейса.
+- **AppWrite**: для предоставления необходимых бэкенд-возможностей.
+- **TypeScript (TS)**: для типизации и обеспечения надежности кода.
 
-```bash
-# npm
-npm install
+## Основные особенности
 
-# pnpm
-pnpm install
+- **Динамичный пользовательский интерфейс**: Используя Vue и Nuxt, мы создаем отзывчивый и современный интерфейс для CRM системы.
+- **Эффективное взаимодействие с сервером**: Vue Query помогает оптимизировать запросы к API и кэшировать данные.
+- **Валидация форм**: С помощью VeeValidate мы обеспечим точную и гибкую валидацию форм.
+- **Управление состоянием**: Pinia дает возможность управлять состоянием приложения эффективно и предсказуемо.
+- **Типизация с TypeScript**: TS помогает избежать множества ошибок на этапе разработки, обеспечивая стабильность и надежность системы.
 
-# yarn
-yarn install
+## Старт проекта
 
-# bun
-bun install
-```
+Чтобы начать работу с проектом, следуйте инструкциям:
 
-## Development Server
+1. Клонируйте репозиторий:
+    ```bash
+    git clone https://github.com/arkadykorsakov/crm-system-nuxt-record.git
+    ```
 
-Start the development server on `http://localhost:3000`:
+2. Перейдите в директорию проекта:
+    ```bash
+    cd ваш_проект
+    ```
 
-```bash
-# npm
-npm run dev
+3. Установите зависимости:
+    ```bash
+    npm install
+    ```
 
-# pnpm
-pnpm run dev
+4. Запустите локальный сервер разработки:
+    ```bash
+    npm run dev
+    ```
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Проект будет доступен по адресу: `http://localhost:3000`.
